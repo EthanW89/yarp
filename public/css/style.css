@@ -1,0 +1,61 @@
+html {
+  background: url(/img/backgroundImg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+h1 {
+  text-align: center;
+  color: red;
+  font-family: 'Bree Serif', serif;
+}
+
+.instructions {
+  text-align: center;
+  display: none;
+  font-size: 1.5em;
+  font-family: 'Muli', sans-serif;
+}
+
+.ball {
+  text-align: center;
+  margin-top: 15vh;
+}
+
+.yarp {
+  border: 10px solid black;
+  height: 360px;
+  border-radius: 20px;
+  width: 640px;
+  margin: 0 auto;
+  margin-top: 15vh;
+  display: none;
+}
+
+#pane {
+
+}
+
+.box {
+  background:url(/img/dog_sprite.png);
+  position:absolute;
+  top:140px;
+  left:140px;
+  width: 111px;
+  height: 105px;
+  background-position: 113px -1079px;
+  display: none;
+}
+
+.walk {
+  background:url(/img/dog_sprite.png);
+  position:absolute;
+  top:140px;
+  left:140px;
+  width: 111px;
+  height: 105px;
+  background-position: -121px -1079px;
+}
